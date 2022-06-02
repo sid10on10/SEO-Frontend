@@ -11,8 +11,70 @@
         <a class="navbar-brand" style="color:white;" href="https://botpresso.com/">Botpresso</a>
     </nav>
     <div class="container" style="text-align: center;">
-        <h1 style="color:black;font-family:times-new-roman;margin:auto;font-size:50px;">Botpresso SEO</h1>
+        <h1 style="color:black;font-family:times-new-roman;margin:auto;font-size:50px;">SEO Tool</h1>
     </div>
+    <div class="container">
+        <form onsubmit="submitData();return false">
+            <div class="form-group">
+                <label for="keyword1">Keyword 1</label>
+                <input type="text" class="form-control" id="keyword1" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 2</label>
+                <input type="text" class="form-control" id="keyword2" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 3</label>
+                <input type="text" class="form-control" id="keyword3" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 4</label>
+                <input type="text" class="form-control" id="keyword4" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 5</label>
+                <input type="text" class="form-control" id="keyword5" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 6</label>
+                <input type="text" class="form-control" id="keyword6" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 7</label>
+                <input type="text" class="form-control" id="keyword7" placeholder="Enter keyword" required>
+            </div>              
+            <div class="form-group">
+                <label for="keyword1">Keyword 8</label>
+                <input type="text" class="form-control" id="keyword8" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 9</label>
+                <input type="text" class="form-control" id="keyword9" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Keyword 10</label>
+                <input type="text" class="form-control" id="keyword10" placeholder="Enter keyword" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Geography</label>
+                <input type="text" class="form-control" id="geography" placeholder="Enter geography" required>
+            </div>
+            <div class="form-group">
+                <label for="keyword1">Domain</label>
+                <input type="text" class="form-control" id="domain" placeholder="Enter domain" required>
+            </div>
+
+            <img src="loader.gif" id="loader" style="display:none;width:100px;"/>
+            <div style="display: none;color:red;" id="errorblock">Internal Server Error! Please try again</div>
+            <br>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <div class="container" id="resultsDiv">
+        
+    </div>
+   
     <script src="script.js"></script>
 </body>
 </html>
